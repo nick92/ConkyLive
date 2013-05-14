@@ -1,0 +1,15 @@
+package com.example.conkylive;
+
+public class RainbowWallpaper extends AnimationWallpaper {
+	 
+	   @Override
+	   public Engine onCreateEngine() {
+	      return new Engine();
+	   }
+	 
+	   class Engine extends AnimationEngine {
+		   
+		   
+	   }
+	   
+}

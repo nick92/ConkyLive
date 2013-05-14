@@ -1,0 +1,13 @@
+package com.example.conkylive;
+
+import java.util.Date;
+
+
+public class RainbowWallpaper {
+	 
+	  public void RandowWallpaper()
+	  {
+		  Date d = new Date();
+		  
+	  }
+}
