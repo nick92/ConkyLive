@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"  
+  xmlns:mixer="http://schemas.android.com/apk/res/com.example.testapplication"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  tools:context=".ColorMixerDemo"
+>
+  
+  <com.example.testapplication.ColorMixer
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    mixer:initialColor="#FFA4C639"
+    mixer:titleText="Background color"
+  />
+</LinearLayout>

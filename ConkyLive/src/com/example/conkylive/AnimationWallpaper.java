@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Resources;
@@ -135,18 +137,23 @@ public class AnimationWallpaper extends WallpaperService {
 			}
 		}
 
+		@SuppressLint("NewApi")
 		private void draw(Canvas c) {
 			c.save();
 			TypedArray a = obtainStyledAttributes(R.styleable.ColorMixer);  
 			String string = a.getString(R.styleable.ColorMixer_colorString);
 			
-			Typeface tf = Typeface.create("Helvetica", Typeface.BOLD);
+			Typeface tf = Typeface.create("Helvetica", Typeface.NORMAL);
 			paint.setAntiAlias(true);
 			Date d = new Date();
 			filter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
 			it = registerReceiver(null, filter);
 			int level = it.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
-			int temperature = it.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
+			int vol = it.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
+			int temperature = it.getIntExtra(BatteryManager.EXTRA_TEMPERATURE , 0);
+			
+			long upTime = Long.parseLong(info.getUpTime().substring(0, 4));
+			String runTime = String.format("%d min", TimeUnit.SECONDS.toMinutes(upTime));
 			
 			String cpu = info.getCPUInfo();
 			String mem = info.getMemInfo();
@@ -159,13 +166,13 @@ public class AnimationWallpaper extends WallpaperService {
 			
 			paint.setTypeface(tf);
 			c.drawText("SDCard: "+sdcard+"MB",width/2,300,paint);
-			c.drawText(
-					"Time: " + d.getHours() + ":" + d.getMinutes() + ":"
-							+ d.getSeconds(), width / 2, 180, paint);
+			c.drawText("Time: " + d.getHours() + ":" + d.getMinutes() + ":"
+								+ d.getSeconds(), width / 2, 180, paint);
 			c.drawText("Battery: "+level+"%", width/2, 200, paint);
 			// c.drawText(time, width/2, 200, paint);
 			c.drawText("Health: " + temperature, width / 2, 240, paint);
 			c.drawText("CPU: " + cpu, width / 2, 260, paint);
+			c.drawText("Uptime: "+runTime, width/2, 220, paint);
 			c.drawText(mem, width / 2, 280, paint);
 			paint.setColor(Color.argb(127, 0, 0, 200));
 			paint.setStyle(Paint.Style.FILL_AND_STROKE);

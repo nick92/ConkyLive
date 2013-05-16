@@ -23,11 +23,6 @@
             <meta-data android:name="android.service.wallpaper"
             android:resource="@xml/wall" />
         </service>
-        <receiver android:name=".BatteryLevelReceiver">
-		  <intent-filter>
-		    <action android:name="android.intent.action.ACTION_BATTERY_CHANGED"/>
-		  </intent-filter>
-		</receiver>
     </application>
 	<uses-feature android:name="android.software.live_wallpaper" />
 </manifest>

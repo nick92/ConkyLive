@@ -42,7 +42,6 @@ containing a value of this type.
         public static final int image1=0x7f020001;
     }
     public static final class id {
-        public static final int mixer=0x7f080001;
         public static final int text=0x7f080000;
     }
     public static final class layout {
