@@ -151,7 +151,7 @@ public class AnimationWallpaper extends WallpaperService {
 			int level = it.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 			int vol = it.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
 			int temperature = it.getIntExtra(BatteryManager.EXTRA_TEMPERATURE , 0);
-			
+			//Change
 			long upTime = Long.parseLong(info.getUpTime().substring(0, 4));
 			String runTime = String.format("%d min", TimeUnit.SECONDS.toMinutes(upTime));
 			
