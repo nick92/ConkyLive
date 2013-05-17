@@ -66,7 +66,7 @@ public class getInfo {
 	}
    
 	protected String getMemInfo() {
-
+		
 	    StringBuffer sb = new StringBuffer();
 	    ArrayList<String> toks = new ArrayList<String>();
 	    String load = null;
