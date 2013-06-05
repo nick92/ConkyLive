@@ -21,10 +21,13 @@ import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.os.BatteryManager;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Handler;
 import android.service.wallpaper.WallpaperService;
 import android.util.Log;
 import android.view.SurfaceHolder;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class AnimationWallpaper extends WallpaperService {
 
@@ -136,7 +139,7 @@ public class AnimationWallpaper extends WallpaperService {
 					holder.unlockCanvasAndPost(c);
 			}
 		}
-
+		
 		@SuppressLint("NewApi")
 		private void draw(Canvas c) {
 			c.save();
@@ -151,7 +154,7 @@ public class AnimationWallpaper extends WallpaperService {
 			int level = it.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 			int vol = it.getIntExtra(BatteryManager.EXTRA_VOLTAGE, 0);
 			int temperature = it.getIntExtra(BatteryManager.EXTRA_TEMPERATURE , 0);
-			long upTime = Long.parseLong(info.getUpTime().substring(0, 4));
+			long upTime = Long.parseLong(info.getUpTime().substring(0, 3));
 			String runTime = String.format("%d min", TimeUnit.SECONDS.toMinutes(upTime));
 			
 			String cpu = info.getCPUInfo();
