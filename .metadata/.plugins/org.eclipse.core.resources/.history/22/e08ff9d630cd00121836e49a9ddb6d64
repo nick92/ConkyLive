@@ -1,0 +1,49 @@
+package com.example.justweet;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URI;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.conn.scheme.Scheme;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
+public class getTwitterFeeds {
+
+	public String getTwitterFeed() throws Exception {
+		
+		BufferedReader in = null;
+		String str = "";
+		
+		try {
+			HttpClient client = new DefaultHttpClient();
+			client.getConnectionManager().getSchemeRegistry().register(getMockedScheme());
+			
+			URI website = new URI("https://api.twitter.com/1/users/lookup.json?screen_name=nick_wilkins,twitter&include_entities=true"); HttpGet request = new HttpGet();
+			request.setURI(website);
+	        HttpResponse response = client.execute(request);
+	        response.getStatusLine().getStatusCode();
+	        
+	        //in = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+	        JSONObject object = (JSONObject) new JSONTokener(response.getEntity().getContent().toString()).nextValue();
+	        str = object.getString("name");
+	        //JSONArray locations = object.getJSONArray("locations");
+		}
+		catch(Exception e)
+		{
+			
+		}
+		
+		return str;
+	}
+	
+	public Scheme getMockedScheme() throws Exception {
+	    MySSLSocketFactory mySSLSocketFactory = new MySSLSocketFactory();
+	    return new Scheme("https", mySSLSocketFactory, 443);
+	}
+}

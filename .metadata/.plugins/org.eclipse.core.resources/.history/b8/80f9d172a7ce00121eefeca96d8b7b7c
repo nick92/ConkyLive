@@ -1,0 +1,57 @@
+package com.example.justweet;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import android.app.Activity;
+import android.content.Context;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+public class StableArrayAdapter extends ArrayAdapter<String>{
+	
+	private final Context context;
+	private List<String> names;
+    
+	static class ViewHolder {
+	    public TextView text;
+	    public ImageView image;
+	}
+	
+	public StableArrayAdapter(Context context, int textViewResourceId, List<String> objects) {
+		super(context, textViewResourceId, objects);
+		this.context = context;
+		for(int  i = 0; i < objects.size(); i++)
+		{
+			this.names.add(objects.get(0));
+		}
+	}
+	
+    
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+    	View rowView = convertView;
+        if (rowView == null) {
+          LayoutInflater inflater = (LayoutInflater)getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+          rowView = inflater.inflate(R.layout.row, null);
+          ViewHolder viewHolder = new ViewHolder();
+          viewHolder.text = (TextView) rowView.findViewById(R.id.text1);
+          viewHolder.image = (ImageView) rowView.findViewById(R.id.icon);
+          rowView.setTag(viewHolder);
+        }
+
+        ViewHolder holder = (ViewHolder) rowView.getTag();
+        String s = names[position];
+        holder.text.setText(s);
+        return rowView;
+    }    
+}

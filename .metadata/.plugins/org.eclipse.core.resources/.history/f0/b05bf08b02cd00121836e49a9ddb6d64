@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JusTweet</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tweetTxt">Wish I was outside in this lovely weather!!</string>
+	<string name="time">Created At 10:04:30</string>
+</resources>

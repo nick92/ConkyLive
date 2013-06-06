@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="546" maximized="true" width="1093" x="-332" y="-16">
+<window height="845" width="1156" x="1451" y="79">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="270" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="53" y="22"/>
@@ -27,7 +27,7 @@
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -46,40 +46,50 @@
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/nkw/workspace/testApp/res/layout/activity_main.xml" title="activity_main.xml" tooltip="testApp/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testApp/res/layout/activity_main.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnimationWallpaper.java" partName="AnimationWallpaper.java" path="C:/Users/nkw/workspace/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java" title="AnimationWallpaper.java" tooltip="ConkyLive/src/com/example/conkylive/AnimationWallpaper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1196" selectionTopPixel="45"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="getInfo.java" partName="getInfo.java" path="C:/Users/nkw/workspace/ConkyLive/src/com/example/conkylive/getInfo.java" title="getInfo.java" tooltip="ConkyLive/src/com/example/conkylive/getInfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConkyLive/src/com/example/conkylive/getInfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="644" selectionTopPixel="1013"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorChange.java" partName="ColorChange.java" path="C:/Users/nkw/workspace/testApp/src/com/example/testapp/ColorChange.java" title="ColorChange.java" tooltip="testApp/src/com/example/testapp/ColorChange.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testApp/src/com/example/testapp/ColorChange.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="489" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="791" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="ConkyLive Manifest" path="C:/Users/nkw/workspace/ConkyLive/AndroidManifest.xml" title="ConkyLive Manifest" tooltip="ConkyLive/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConkyLive/AndroidManifest.xml"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/nkw/workspace/testApp/src/com/example/testapp/MainActivity.java" title="MainActivity.java" tooltip="testApp/src/com/example/testapp/MainActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testApp/src/com/example/testapp/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="764" selectionTopPixel="38"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="color_options.xml" partName="color_options.xml" path="C:/Users/nkw/workspace/testApp/res/layout/color_options.xml" title="color_options.xml" tooltip="testApp/res/layout/color_options.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/testApp/res/layout/color_options.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnimationWallpaper.java" partName="AnimationWallpaper.java" path="C:/Users/nkw/workspace/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java" title="AnimationWallpaper.java" tooltip="ConkyLive/src/com/example/conkylive/AnimationWallpaper.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1103" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="516" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProgressView" partName="Progress">
 <viewState/>
 </view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
+</viewState>
+</view>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
 <viewState/>
 </view>
 <view id="com.android.ide.eclipse.adt.internal.lint.LintViewPart" partName="Lint Warnings">
 <viewState>
-<lintColWidth CategoryColumn="120" LocationColumn="210" MessageColumn="20"/>
+<lintColWidth CategoryColumn="120" LocationColumn="210" MessageColumn="745"/>
 <lintColVisible CategoryColumn="true" LocationColumn="true" MessageColumn="true"/>
 </viewState>
 </view>
 <view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
 <viewState/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -96,9 +106,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (23 items)"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (50 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -207,7 +216,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="logcat" ratio="0.5967742" ratioLeft="370" ratioRight="250" relationship="4" relative="devices">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<info folder="true" part="logcat" ratio="0.7467742" ratioLeft="463" ratioRight="157" relationship="4" relative="devices">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
@@ -298,16 +307,18 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.android.ide.eclipse.adt.internal.lint.LintViewPart"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.adt.internal.lint.LintViewPart" ratio="0.29855537"/>
 <view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
 <view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.29855537"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.29855537"/>
 <view id="org.eclipse.ui.views.ProgressView" ratio="0.29855537"/>
+<view id="org.eclipse.search.ui.views.SearchView" ratio="0.29855537"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -344,13 +355,14 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.adt.internal.lint.LintViewPart" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.8294011" ratioLeft="914" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="com.android.ide.eclipse.adt.internal.lint.LintViewPart" label="Lint Warnings"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -367,139 +379,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/values/attrs.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/ColorChange.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/layout/color_options.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/testApp/res/layout/color_options.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/ColorChange.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ConkyLive/src/com/example/conkylive/getInfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/ColorChange.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/ConkyLive/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ConkyLive/res/layout/layout.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/ConkyLive/res/layout/layout.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=ConkyLive/C:\/Users\/nkw\/Desktop\/adt-bundle-windows-x86_64-20130219\/sdk\/platforms\/android-17\/android.jar&lt;android.graphics(Paint.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/ColorChange.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/ConkyLive/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ConkyLive/src/com/example/conkylive/getInfo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/testApp/src/com/example/testapp/MainActivity.java"/>
 </editors>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="attrs.xml" index="1"/>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="846" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="957" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="1182" y="0"/>
-</item>
-<item historyLabel="color_options.xml" index="3"/>
-<item historyLabel="AnimationWallpaper.java" index="6">
-<position info="not_deleted" x="2334" y="0"/>
-</item>
-<item historyLabel="color_options.xml" index="3"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="1182" y="0"/>
-</item>
-<item historyLabel="AnimationWallpaper.java" index="6">
-<position info="not_deleted" x="2334" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="891" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="1065" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="891" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="1147" y="5"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="1068" y="77"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="1301" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="447" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="613" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="583" y="714"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="AnimationWallpaper.java" index="6">
-<position info="not_deleted" x="3907" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="AnimationWallpaper.java" index="6">
-<position info="not_deleted" x="3907" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="418" y="48"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
-<position info="not_deleted" x="612" y="0"/>
-</item>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="4">
+<item historyLabel="activity_main.xml" index="1"/>
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="764" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="ColorChange.java" index="2">
-<position info="not_deleted" x="489" y="0"/>
+<item historyLabel="color_options.xml" index="3"/>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="3439" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="4">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="764" y="0"/>
 </item>
-<item active="true" historyLabel="AnimationWallpaper.java" index="6">
-<position info="not_deleted" x="3907" y="0"/>
+<item historyLabel="ColorChange.java" index="4">
+<position info="not_deleted" x="1145" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="2">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="ColorChange.java" index="4">
+<position info="not_deleted" x="1303" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4242" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="5081" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="5081" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="933" y="9"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="3691" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="932" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="3691" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4815" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="932" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4092" y="4"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="932" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4092" y="4"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4234" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4551" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="659" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4508" y="0"/>
+</item>
+<item historyLabel="ColorChange.java" index="6">
+<position info="not_deleted" x="791" y="31"/>
+</item>
+<item historyLabel="ConkyLive Manifest" index="7"/>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4508" y="0"/>
+</item>
+<item historyLabel="layout.xml" index="8">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="layout.xml" index="9">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel="layout.xml" index="9">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="layout.xml" index="9">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="4087" y="0"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="659" y="0"/>
+</item>
+<item historyLabel="ConkyLive Manifest" index="7"/>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="1381" y="5"/>
+</item>
+<item historyLabel="Paint.class" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="1617" y="7"/>
+</item>
+<item historyLabel="getInfo.java" index="5">
+<position info="not_deleted" x="250" y="7"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="1617" y="7"/>
+</item>
+<item historyLabel="ColorChange.java" index="11">
+<position info="not_deleted" x="791" y="31"/>
+</item>
+<item historyLabel="ConkyLive Manifest" index="12"/>
+<item historyLabel="getInfo.java" index="13">
+<position info="not_deleted" x="644" y="0"/>
+</item>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="1277" y="0"/>
+</item>
+<item historyLabel="ConkyLive Manifest" index="12"/>
+<item historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="2979" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="14">
+<position info="not_deleted" x="516" y="0"/>
+</item>
+<item active="true" historyLabel="AnimationWallpaper.java" index="0">
+<position info="not_deleted" x="2979" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -520,26 +552,35 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="testApp/src/com/example/testapp/MainActivity.java">
+<persistable path="/testApp/src/com/example/testapp/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Paint.class" tooltip="android.graphics.Paint">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=ConkyLive/C:\/Users\/nkw\/Desktop\/adt-bundle-windows-x86_64-20130219\/sdk\/platforms\/android-17\/android.jar&lt;android.graphics(Paint.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="layout.xml" tooltip="ConkyLive/res/layout/layout.xml">
+<persistable path="/ConkyLive/res/layout/layout.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="ConkyLive/AndroidManifest.xml">
+<persistable path="/ConkyLive/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorChange.java" tooltip="testApp/src/com/example/testapp/ColorChange.java">
+<persistable path="/testApp/src/com/example/testapp/ColorChange.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="getInfo.java" tooltip="ConkyLive/src/com/example/conkylive/getInfo.java">
+<persistable path="/ConkyLive/src/com/example/conkylive/getInfo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnimationWallpaper.java" tooltip="ConkyLive/src/com/example/conkylive/AnimationWallpaper.java">
 <persistable path="/ConkyLive/src/com/example/conkylive/AnimationWallpaper.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="color_options.xml" tooltip="testApp/res/layout/color_options.xml">
 <persistable path="/testApp/res/layout/color_options.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="layout.xml" tooltip="ConkyLive/res/layout/layout.xml">
-<persistable path="/ConkyLive/res/layout/layout.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="testApp/res/values/strings.xml">
 <persistable path="/testApp/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="testApp/src/com/example/testapp/MainActivity.java">
-<persistable path="/testApp/src/com/example/testapp/MainActivity.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="testApp/gen/com/example/testapp/R.java">
 <persistable path="/testApp/gen/com/example/testapp/R.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorChange.java" tooltip="testApp/src/com/example/testapp/ColorChange.java">
-<persistable path="/testApp/src/com/example/testapp/ColorChange.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="attrs.xml" tooltip="testApp/res/values/attrs.xml">
 <persistable path="/testApp/res/values/attrs.xml"/>
@@ -555,15 +596,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="testApplication/res/values/strings.xml">
 <persistable path="/testApplication/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="dimens.xml" tooltip="testApplication/res/values/dimens.xml">
-<persistable path="/testApplication/res/values/dimens.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="testApplication/AndroidManifest.xml">
-<persistable path="/testApplication/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="testApplication/gen/com/example/testapplication/R.java">
-<persistable path="/testApplication/gen/com/example/testapplication/R.java"/>
 </file>
 </mruList>
 </workbench>

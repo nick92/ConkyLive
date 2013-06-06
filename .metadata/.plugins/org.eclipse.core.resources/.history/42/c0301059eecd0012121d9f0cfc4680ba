@@ -1,0 +1,107 @@
+package com.example.justweet;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import android.content.Context;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+public class StableArrayAdapter extends BaseAdapter{
+	
+	HashMap<String, Integer> mIdMap = new HashMap<String, Integer>();
+	ArrayList<String> list = new ArrayList<String>();
+	private Context newCon;
+	
+	public StableArrayAdapter(Context context, int textViewResourceId, List<String> objects) {
+		super(context, textViewResourceId, objects);
+		newCon = context;
+		for (int i = 0; i < objects.size(); ++i) {
+			mIdMap.put(objects.get(i), i);
+	        list.add(objects.get(i));
+	    }
+	}
+	
+	@Override
+    public long getItemId(int position) {
+      String item = getItem(position);
+      return mIdMap.get(item);
+    }
+
+    @Override
+    public boolean hasStableIds() {
+      return true;
+    }
+    
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View v = new View(newCon);
+        v = convertView;
+        if(v == null)
+        {
+        	try {/*
+        	LinearLayout ll = new LinearLayout(newCon);
+        	LinearLayout ll2 = new LinearLayout(newCon);
+        	ll.setId((int) Math.random() * 100);
+        	ll2.setId((int) Math.random() * 100);
+        	LayoutParams lp = new LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        	LayoutParams lp2 = new LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, 0);
+        	LayoutParams lp3 = new LayoutParams(0, LinearLayout.LayoutParams.FILL_PARENT);
+        	
+        	ll.setOrientation(LinearLayout.VERTICAL);
+        	ll.setPadding(10, 10, 10, 10);
+        	ll.setLayoutParams(lp);
+        	ll2.setLayoutParams(lp3);
+        	
+        	ImageView iv = new ImageView(newCon);
+        	TextView tt = new TextView(newCon);
+        	TextView tb = new TextView(newCon);
+        	TextView bt = new TextView(newCon);
+        	
+        	iv.setLayoutParams(lp);
+        	tt.setLayoutParams(lp2);
+        	tb.setLayoutParams(lp2);
+        	bt.setLayoutParams(lp2);
+        	
+        	ll.addView(iv);
+        	ll.addView(ll2);
+        	ll2.addView(tt);
+        	ll2.addView(tb);
+        	ll2.addView(bt);
+        	*/
+        	
+        	LayoutInflater li = (LayoutInflater)getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        	v = li.inflate(R.layout.row, null);
+        	
+        	TextView tt = (TextView) v.findViewById(R.id.toptext);
+            TextView bt = (TextView) v.findViewById(R.id.bottomtext);
+            TextView tb = (TextView) v.findViewById(R.id.nametext);
+            ImageView iv = (ImageView) v.findViewById(R.id.icon);
+    		
+    		GetTwitterFeed gtf = new GetTwitterFeed();
+    		
+    		String screen_name = gtf.getTwitterFeed();
+    		iv.setImageResource(R.drawable.tolly_mister);
+            tb.setId((int) Math.random()*100);
+            tb.setText(list.get(0));
+            tt.setText("screen_name");
+            bt.setText("My Favorite car is a blue car");
+        	}
+        	catch(Exception e)
+        	{
+        		Log.e("Tag",e.toString());
+        	}
+        }       
+        return v;
+    }    
+}
